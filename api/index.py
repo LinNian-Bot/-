@@ -17,6 +17,7 @@ async def _(url: str):
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "8izj4eyf6k");
     </script>
-     <meta http-equiv="refresh" content="1;url={url}">
+     <meta http-equiv="refresh" content="1;url=https://cdn.jsdelivr.net/gh/linnian-bot/qwqwqqq/files/{url}">
 </html>
     """.replace("url={url}",f"url={url}")
+    return HTMLResponse(content=html,status_code=200)
